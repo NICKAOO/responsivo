@@ -1,0 +1,224 @@
+
+body{
+
+    background-color: #000000;
+}
+
+
+
+nav a,button{
+    min-width: 48px;
+    min-height: 48px;
+   color: #ffffff;
+   
+    }
+  
+  
+  
+.gim{
+    background-color: #8b0c0c;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 80px;
+    width: 200px;
+    border: #000000;
+    border-radius: 24px;
+    text-align: center;
+   display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: none;
+ 
+}
+
+.aca{
+   
+    text-align: center;
+    
+}
+
+
+
+
+    img,embed,object,video{
+      max-width: 100%;
+      
+      }
+  
+  
+  
+  
+  
+  
+  .all-browsers {
+      margin: 0;
+      padding: 5px;
+      background-color: #8b0c0c;
+      border: #000000;
+      border-radius: 24px;
+    }
+    
+    .all-browsers > h1, .browser {
+      margin: 10px;
+      padding: 5px;
+    }
+    
+    .browser {
+      background: black;
+    }
+    
+    .browser > h2, p {
+      margin: 4px;
+      font-size: 90%;
+    }
+  
+  article{
+      background-color: #8b0c0c;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5; /* Remova o preenchimento para cobrir toda a janela*/
+      border: #000000;
+      border-radius: 24px;
+  }
+  
+  
+  
+  footer{
+  
+      background-color: #7de48e;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+  }
+  
+  
+  figure{
+  
+  text-align: center;
+  border-radius: 10px;
+  border: outset #fff;
+  }
+  
+  nav{
+      background-color: #e985cb;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+  }
+  
+  
+  header{
+      background-color: #7de48e;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+      border: #000000;
+      border-radius: 24px;
+  }
+      
+  
+  
+  aside{
+  flex-direction: column-reverse;
+      background-color: #fff;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+      border: #000000;
+      border-radius: 24px;
+      
+  }
+  
+  section{
+      background-color: #fff;
+      margin: 5; /* Remova margens para cobrir toda a janela */
+      padding: 5;
+      border: #000000;
+      border-radius: 24px;
+  }
+  
+  
+  
+  a{
+
+    
+    text-decoration: 0;
+  }
+  
+  
+
+  /* css para mobile*/
+
+  @media only screen and (max-width: 600px) {
+    body {
+      background-color: rgb(255, 255, 255);
+  color: black;
+  
+  
+  
+    }
+
+
+ 
+    .gim{
+        background-color: #000000;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        height: 80px;
+        width: 200px;
+        border: #000000;
+        border-radius: 24px;
+        text-align: center;
+       display: flex;
+      justify-content: center;
+      align-items: center;
+      border-bottom: none;
+     ;
+    }
+    
+    section{
+        background-color: #a80f9c;
+        margin: 5; /* Remova margens para cobrir toda a janela */
+        padding: 5;
+    }
+
+    
+  header{
+    background-color: #a80f9c;
+    margin: 5; /* Remova margens para cobrir toda a janela */
+    padding: 5;
+    border: #000000;
+    border-radius: 24px;
+}
+
+
+article{
+    background-color: #2b2828;
+    color: #ece4e4;
+    margin: 5; /* Remova margens para cobrir toda a janela */
+    padding: 5; /* Remova o preenchimento para cobrir toda a janela*/
+    border: #000000;
+    border-radius: 24px;
+}
+
+aside{
+    flex-direction: column-reverse;
+        background-color: blueviolet;
+        margin: 5; /* Remova margens para cobrir toda a janela */
+        padding: 5;
+        border: #000000;
+        border-radius: 24px;
+        
+    }
+
+    
+  
+  footer{
+  
+    background-color: blueviolet;
+    margin: 5; /* Remova margens para cobrir toda a janela */
+    padding: 5;
+}
+
+img,embed,object,video{
+    max-width: 100%;
+    
+    }
+
+
+  }
